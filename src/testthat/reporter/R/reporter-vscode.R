@@ -5,7 +5,7 @@
 #'
 #' @export
 VSCodeReporter <- R6::R6Class("VSCodeReporter",
-  inherit = Reporter,
+  inherit = testthat::Reporter,
   private = list(
     filename = NULL
   ),
